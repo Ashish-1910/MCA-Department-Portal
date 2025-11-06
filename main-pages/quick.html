@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quick Navigation</title>
+  <style>
+    body {
+        margin: 5px;
+        margin-bottom: 0px;
+        padding: 0;
+        background-color: #fce6e6;
+        /* overflow: hidden; */
+        }
+    .navbar {
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        height: 100%;
+        padding: 0; /* ensures no vertical overflow */
+        }
+
+
+    .navbar a {
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      flex: 1;
+    }
+
+    .navbar img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 6px;
+    }
+
+    /* 🔧 Custom (Smaller) Image Sizes for 12% Frame */
+    .logo-uic img { width: 130px; height: 60px; }
+    .logo-home img { width: 50px; height: 50px; }
+    .logo-profile img { width: 50px; height: 50px; }
+    .logo-grades img { width: 50px; height: 50px; }
+    .logo-courses img { width: 65px; height: 50px; }
+    .logo-register img { width: 110px; height: 60px; }
+    .logo-back img { width: 40px; height: 50px; }
+
+    .navbar div {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 0px;
+    }
+
+    .navbar a:hover {
+      transform: scale(1.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      background-color: #e6e6e6;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <a href="https://www.cuchd.in/computing/" target="contentFrame" class="logo-uic">
+      <img src="../multi-media/logo/logo.png" alt="UIC Logo">
+      <!-- <div>UIC</div> -->
+    </a>
+    <a href="../new.html" target="contentFrame" class="logo-home">
+      <img src="../multi-media/logo/home.png" alt="Home">
+      <div>Home</div>
+    </a>
+    <a href="profile.html" target="contentFrame" class="logo-profile">
+      <img src="../multi-media/logo/profiles.png" alt="Profiles">
+      <div>Profiles</div>
+    </a>
+    <a href="grades.html" target="contentFrame" class="logo-grades">
+      <img src="../multi-media/logo/grades.png" alt="Grades">
+      <div>Grades</div>
+    </a>
+    <a href="courses.html" target="contentFrame" class="logo-courses">
+      <img src="../multi-media/logo/course.png" alt="Courses">
+      <div>Courses</div>
+    </a>
+    <a href="form.html" target="contentFrame" class="logo-register">
+      <img src="../multi-media/logo/registornow-removebg-preview.png" alt="Registration">
+      <!-- <div>Register</div> -->
+    </a>
+    <a href="javascript:history.back()" class="logo-back">
+      <img src="../multi-media/logo/Back-logo.png" alt="Back">
+      <div>Back</div>
+    </a>
+  </div>
+</body>
+</html>

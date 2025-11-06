@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Institute of Computing - MCA (General)</title>
+    <style>
+        /* ================= GLOBAL STYLES ================= */
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #BEEFFA, #e3f2fd);
+            font-family: "Poppins", sans-serif;
+            color: #222;
+            overflow-x: hidden;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        hr {
+            border: none;
+            height: 4px;
+            background: #000;
+            margin: 20px 0;
+        }
+
+        h1, h2, h3 {
+            margin: 5px 0;
+            
+        }
+
+        h1 {
+            font-size: 2.0rem;
+        }
+
+        p {
+            font-size: 1.0rem;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        /* ================= HEADER ================= */
+        header {
+            text-align: center;
+            background: #0d47a1;
+            color: white;
+            padding: 30px 10px;
+            border-bottom: 5px solid #ff9800;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            letter-spacing: 1.2px;
+        }
+
+        /* ================= INTRO SECTION ================= */
+        .intro-table {
+            background: #f0f0f0;
+            width: 90%;
+            margin: 40px auto;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro-table td {
+            padding: 30px;
+            vertical-align: top;
+        }
+
+        video {
+            border-radius: 20px;
+            height: 350px;
+            width: 600px;
+            object-fit: cover;
+            /* border: 3px solid #1976d2; */
+            transition: transform 0.5s ease, box-shadow 0.4s ease;
+        }
+
+        video:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .intro-text h1 {
+            color: #0d47a1;
+            text-decoration: underline;
+        }
+
+        .intro-text p i {
+            text-wrap: wrap;
+            color: #ef6c00;
+        }
+
+        /* ================= WHY CHOOSE SECTION ================= */
+        .why-section {
+            text-align: center;
+            background: #e3f2fd;
+            padding: 40px 20px;
+        }
+
+        .why-section h3 {
+            color: #1b5e20;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        /* ================= CONTENT GRID ================= */
+        .content-grid {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 30px;
+            width: 90%;
+            margin: 0 auto 60px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        .grid-item {
+            flex: 1 1 45%;
+            background: #fafafa;
+            border-radius: 15px;
+            padding: 20px 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .grid-item h3 {
+            color: #e65100;
+            border-bottom: 2px solid #e65100;
+            display: inline-block;
+            padding-bottom: 5px;
+            text-align: center;
+        }
+
+        .skills-table td {
+            padding: 8px 15px;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .partners img {
+            border: 2px solid #1976d2;
+            border-radius: 15px;
+            transition: transform 0.4s ease;
+        }
+
+        .partners img:hover {
+            transform: scale(1.05);
+        }
+
+        /* ================= EXTRA SECTION ================= */
+        .extra-info {
+            background: linear-gradient(135deg, #42a5f5, #90caf9);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            border-top: 4px solid #1565c0;
+        }
+
+        .extra-info h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .extra-info p {
+            font-size: 1.1rem;
+            width: 80%;
+            margin: auto;
+        }
+
+        /* ================= FOOTER ================= */
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 0.95rem;
+            letter-spacing: 0.5px;
+        }
+
+        /* ================= RESPONSIVE ================= */
+        @media (max-width: 900px) {
+            .intro-table, .content-grid {
+                width: 95%;
+            }
+            .intro-table td {
+                display: block;
+                text-align: center;
+            }
+            video {
+                width: 90%;
+                height: auto;
+            }
+            .grid-item {
+                flex: 1 1 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <!-- <header>
+        <h1>DEPARTMENT OF COMPUTER APPLICATIONS</h1>
+        <p>University Institute of Computing, Punjab</p>
+    </header> -->
+
+    <!-- Intro Section -->
+    <table class="intro-table">
+        <tr>
+            <td>
+                <video width="570" height="320" controls poster="../multi-media/images/mca-gen.png">
+                    <source src="../multi-media/videos/uic-mca-video.mp4" type="video/mp4">
+                </video>
+            </td>
+            <td class="intro-text">
+                <h1>Master of Computer Applications (General)</h1>
+                <p><i>Master of Computer Applications (MCA)</i> at UIC is a comprehensive 2-year postgraduate program designed to empower students with modern computing skills and specializations. Students can choose areas such as <b>System Programming, Database Management, Networking, Web Design, and Artificial Intelligence</b>. The program integrates practical exposure with theoretical learning, ensuring our graduates excel in the global IT industry.</p>
+                <p>The curriculum is updated to meet global standards and focuses on emerging technologies such as <b>Cloud Computing, Android Development, JAVA, Oracle, .NET, PHP, and CISCO</b>. UIC stands among the best MCA colleges in India, providing a balance of innovation, creativity, and technical mastery.</p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Why Choose Section -->
+    <section class="why-section">
+        <h3>Why Choose MCA (General)?</h3>
+        <p style="width:85%;margin:auto;font-size:1.1rem;">
+            Choosing MCA (General) at UIC means choosing <b>academic excellence, industry exposure, and career readiness</b>. 
+            Our curriculum blends technical foundations with advanced applications to ensure you graduate as a confident professional 
+            equipped for the modern digital world. Our faculty comprises experienced academicians and industry experts who mentor students throughout their journey.
+            The program offers hands-on training, workshops, and certifications to enhance employability. UIC provides excellent placement support, career counseling, and networking opportunities with alumni and professionals.
+        </p>
+    </section>
+
+    <!-- Two Column Content Grid -->
+    <div class="content-grid">
+        <!-- Skills Section -->
+        <div class="grid-item">
+            <h3>Important Topics & Skills Covered</h3>
+            <table class="skills-table" width="100%">
+                <tr><td>• System Programming</td><td>• Database Management Systems (DBMS)</td></tr>
+                <tr><td>• Computer Networks</td><td>• Web Designing & Development</td></tr>
+                <tr><td>• Artificial Intelligence & Machine Learning</td><td>• Cloud Computing</td></tr>
+                <tr><td>• Android Application Development</td><td>• JAVA, .NET, PHP, Oracle</td></tr>
+                <tr><td>• Cyber Security</td><td>• Data Structures & Algorithms</td></tr>
+                <tr><td>• Software Engineering</td><td>• Project Management</td></tr>
+                <tr><td>• Data Analytics</td><td>• DevOps & Automation</td></tr>
+                <tr><td>• UI/UX Design</td><td></td></tr>
+            </table>
+        </div>
+
+        <br>
+        <!-- Hiring Partners -->
+        <div class="grid-item partners">
+            <h3>Our Hiring Partners</h3>
+            <p><b>UIC MCA graduates are recruited by top-tier IT companies, startups, and research organizations.</b>Our alumni work at leading firms such as <b>Infosys, TCS, Wipro, IBM, Accenture, and Capgemini</b>. Students also secure roles in emerging tech startups, government agencies, and global enterprises. Regular <b>campus drives, internships, and industry projects</b> boost placement opportunities and career growth.</p>
+            <img src="../multi-media/images/hiring-partners.png" alt="Hiring Partners" width="1300" height="342">
+            <p style="margin-top:10px;">Our strong industry collaborations ensure that every student gets the right platform to launch their professional journey.</p>
+        </div>
+    </div>
+
+    <!-- Extra Information Section -->
+    <div class="extra-info">
+        <h2>Beyond the Classroom</h2>
+        <p>
+            UIC emphasizes practical learning through <b>live projects, hackathons, internships, and research-driven coursework</b>. 
+            Our students gain real-world exposure through seminars, industrial visits, and collaborative learning with tech innovators. 
+            With modern labs, experienced mentors, and a forward-thinking environment, UIC ensures every MCA graduate is ready for global success.
+        </p>
+        <p>
+            Students actively participate in <b>coding competitions, technical clubs, and national conferences</b>, fostering leadership and teamwork skills. 
+            UIC also supports personal growth through soft skills training, entrepreneurship workshops, and community outreach programs, preparing students to become well-rounded professionals and responsible citizens.
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 University Institute of Computing | All Rights Reserved
+    </footer>
+</body>
+</html>

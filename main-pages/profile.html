@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Institute of Computing</title>
+    <style>
+        /* General body styling */
+        body {
+            background-color: #d3d3d3;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        hr {
+            border: none;
+            height: 5px;
+            background-color: black;
+        }
+
+        h1 {
+            margin: 5px;
+            padding: 10px 0;
+        }
+
+        /* Logo and table heading styling */
+        table img {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        /* Main student profiles table styling */
+        table[border="3"] {
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+        table[border="3"] th, table[border="3"] td {
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        table[border="3"] th {
+            background-color: #ffff66;
+            color: red;
+            font-family: "Bell MT", serif;
+            font-size: 20px;
+        }
+
+        table[border="3"] tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        table[border="3"] tr:hover {
+            background-color: #ffeb99;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Links in table */
+        table[border="3"] a {
+            color: #1a0dab;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        table[border="3"] a:hover {
+            text-decoration: underline;
+            color: #d40000;
+        }
+
+        /* Caption styling */
+        caption {
+            caption-side: bottom;
+            font-size: 14px;
+            color: #383838;
+            text-align: right;
+            padding-top: 5px;
+        }
+
+        /* Responsive behavior */
+        @media screen and (max-width: 800px) {
+            table[border="3"] {
+                width: 95%;
+                font-size: 14px;
+            }
+
+            table[border="3"] th, table[border="3"] td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- <hr>
+    <center>
+        <h1>DEPARTMENT OF COMPUTER APPLICATIONS</h1>
+    </center>
+    <hr> -->
+    <table border="0" bgcolor="#d3d3d3" align="center">
+        <tr>
+            <td>
+                <img src="../multi-media/logo/profiles.png" alt="MCA Student" width="120" height="100">
+            </td>
+            <td align="center">
+                <h1><u>Students Profiles</u></h1>
+            </td>
+        </tr>
+    </table>
+    <table align="center" border="3" cellpadding="11" cellspacing="4" bgcolor="white" style="border-radius: 10px;">
+        <caption>(For complete profile click on student name...)</caption>
+        <tr bgcolor="ffff66" align="center">
+            <th>Sr. No.</th>
+            <th width="150">Name</th>
+            <th>UID</th>
+            <th>Course</th>
+            <th>Class</th>
+            <th width="200">Email</th>
+            <th>Phone No.</th>
+            <th>Session</th>
+            <th>Student-Type</th>
+        </tr>
+        <tr align="center">
+            <td>01</td><td><a href="../profiles-list/arudh.html">Arudh Pandey</a></td><td>25MCA20101</td><td>MCA-Gen</td><td>MCA1-A</td><td>25MCA20101@cuchd.in</td><td>90909XXXXX</td><td>2025-27</td><td>Day-Scholar</td>
+        </tr>
+        <tr align="center">
+            <td>02</td><td><a href="../profiles-list/ashish.html">Ashish Kumar</a></td><td>25MCA20102</td><td>MCA-Gen</td><td>MCA1-A</td><td>25MCA20102@cuchd.in</td><td>99999XXXXX</td><td>2025-27</td><td>Day-Scholar</td>
+        </tr>
+        <tr align="center">
+            <td>03</td><td><a href="../profiles-list/priya.html">Priya Sharma</a></td><td>25MCA20103</td><td>MCA-CC</td><td>MCA3-A</td><td>25MCA20103@cuchd.in</td><td>91919XXXXX</td><td>2025-27</td><td>Hosteller</td>
+        </tr>
+<tr align="center">
+            <td>04</td><td><a href = ../profiles-list/sanyam.html > Sanyam Sharma </a></td><td>25MCA20104</td><td>MCA-ML</td><td>MCA2-B</td><td>25MCA20104@cuchd.in</td><td>98989XXXXX</td><td>2025-27</td><td>Day-Scholar</td>
+        </tr>
+        <tr align="center">
+            <td>05</td><td><a href = ../profiles-list/sneha.html > Sneha Gupta</a></td><td>25MCA20105</td><td>MCA-DS</td><td>MCA3-B</td><td>25MCA20105@cuchd.in</td><td>96969XXXXX</td><td>2025-27</td><td>Hosteller</td>
+        </tr>
+        <tr align="center">
+            <td>06</td><td><a href = ../profiles-list/varun.html > Varun Singh</a></td><td>25MCA20106</td><td>MCA-ML</td><td>MCA2-B</td><td>25MCA20106@cuchd.in</td><td>98888XXXXX</td><td>2025-27</td><td>Hosteller</td>
+        </tr>
+        <tr align="center">
+            <td>07</td><td><a href = ../profiles-list/kritika.html > Kritika Chauhan</a></td><td>25MCA20107</td><td>MCA-CC</td><td>MCA3-A</td><td>25MCA20107@cuchd.in</td><td>95555XXXXX</td><td>2025-27</td><td>Day-Scholar</td>
+        </tr>
+        <tr align="center">
+            <td>08</td><td><a href = ../profiles-list/anjali.html > Anjali Verma</a></td><td>25MCA20108</td><td>MCA-DS</td><td>MCA3-B</td><td>25MCA20108@cuchd.in</td><td>91234XXXXX</td><td>2025-27</td><td>Hosteller</td>
+        </tr>
+        <tr align="center">
+            <td>09</td><td><a href = ../profiles-list/sarthak.html > Sarthak Nyati</a></td><td>25MCA20109</td><td>MCA-ML</td><td>MCA2-B</td><td>25MCA20109@cuchd.in</td><td>94321XXXXX</td><td>2025-27</td><td>Hosteller</td>
+        </tr>
+        <tr align="center">
+            <td>10</td><td><a href = ../profiles-list/nandita.html > Nandita Parmar</a></td><td>25MCA20110</td><td>MCA-Gen</td><td>MCA1-A</td><td>25MCA20110@cuchd.in</td><td>98765XXXXX</td><td>2025-27</td><td>Day-Scholar</td>
+        </tr>
+        <!-- Add remaining students here -->
+    </table>
+</body>
+</html>

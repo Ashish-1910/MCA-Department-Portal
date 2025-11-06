@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Chandigarh University</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e3f2fd, #fff3e0);
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .thankyou-box {
+            background: white;
+            padding: 40px 60px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            color: #d32f2f;
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .home-btn {
+            margin-top: 30px;
+            background: linear-gradient(90deg, #1976d2, #42a5f5);
+            color: white;
+            border: none;
+            padding: 12px 40px;
+            border-radius: 50px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .home-btn:hover {
+            background: linear-gradient(90deg, #0d47a1, #1976d2);
+            transform: scale(1.05);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="thankyou-box">
+        <img src="../multi-media/logo/logo.png" alt="CU Logo" width="120" style="margin-bottom: 20px;">
+        <h1>Thank You for Your Submission!</h1>
+        <p>We’ve successfully received your registration details.<br>
+        Our team from <strong>Chandigarh University</strong> will reach out to you soon.</p>
+        <button class="home-btn" onclick="window.location.href='../new.html'">🏠 Go to Home</button>
+    </div>
+
+    <footer>
+        © 2025 Chandigarh University | All Rights Reserved
+    </footer>
+</body>
+</html>

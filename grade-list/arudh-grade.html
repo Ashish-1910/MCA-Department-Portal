@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Institute of Computing</title>
+    <style>
+        /* === Global Styles === */
+        body {
+            background-color: #EAFCC0;
+            font-family: "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        body::-webkit-scrollbar {
+                display: none;
+            }
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            margin-bottom: 10px;
+        }
+
+        /* === Header Section === */
+        .student-header {
+            background-color: #EAFCC0;
+            padding: 20px;
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        .student-header img {
+            border: 0.5px solid black;
+            border-radius: 10px;
+            text-align: right;
+            height: 150px;
+            width: 150px;
+        }
+        .student-header td {
+            font-size: 18px;
+            text-align: left;
+            border: none;
+        }
+
+        /* === Top Semester Links === */
+        .semester-links {
+            width: 90%;
+            margin: 20px auto;
+            border: 1px solid #999;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #888;
+        }
+
+        .semester-links th {
+            background-color: #BEEFFA;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .semester-links th:last-child {
+            background-color: #FA9D87;
+        }
+
+        .semester-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .semester-links a:hover {
+            color: #0066cc;
+        }
+
+        /* === Semester Tables === */
+        .semester-table {
+            width: 90%;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #888;
+        }
+
+        .semester-table caption {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .semester-table th {
+            background-color: #FFD080;
+        }
+
+        .semester-table td {
+            background-color: #D1CFD1;
+        }
+
+        .semester-table td b {
+            color: #000;
+        }
+
+        /* === Footer Table (Same as Top Links) === */
+        .footer-links {
+            width: 96%;
+            margin: 30px auto;
+            border: 1px solid #999;
+        }
+
+        .footer-links th {
+            background-color: #BEEFFA;
+            padding: 15px;
+        }
+
+        .footer-links th:last-child {
+            background-color: #FA9D87;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #0066cc;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= STUDENT INFO ================= -->
+    <table class="student-header" cellpadding="5" cellspacing="0" align="center">
+        <tr>
+            <td>
+                <img align="right" src="../multi-media/images/arudh-img1.png" alt="MCA Student" width="120" height="100">
+            </td>
+            <td width="50%">
+                <table width="100%">
+                    <tr><td><b>• Student:</b> Arudh Pandey</td></tr>
+                    <tr><td><b>• UID:</b> 24MCA10101</td></tr>
+                    <tr><td><b>• Report:</b> Pass</td></tr>
+                </table>
+            </td>
+            <td width="50%">
+                <table width="100%">
+                    <tr><td><b>• Total Marks Obtained:</b> 2196 / 2500</td></tr>
+                    <tr><td><b>• Overall Percentage:</b> 87.84%</td></tr>
+                    <tr><td><b>• SGPA:</b> 8.78</td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <!-- ================= SEMESTER NAVIGATION ================= -->
+    <table class="semester-links" align="center">
+        <tr>
+            <th><a href="#sem1">Sem - 01</a></th>
+            <th><a href="#sem2">Sem - 02</a></th>
+            <th><a href="#sem3">Sem - 03</a></th>
+            <th><a href="#sem4">Sem - 04</a></th>
+            
+        </tr>
+    </table>
+
+    <!-- ================= SEMESTER TABLES ================= -->
+
+    <div id="sem1">
+        <table class="semester-table" align="center">
+            <caption>Semester - 01</caption>
+            <tr>
+                <th>Subject Name</th><th>MST 1</th><th>MST 2</th><th>Practical MST</th><th>Final Theory</th><th>Final Practical</th><th>Total</th><th>Gained</th><th>Grade</th>
+            </tr>
+            <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-601:</b><br>Advanced Database Management System</td><td>18</td><td>17</td><td>-</td><td>56</td><td>-</td><td>100</td><td>91</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-602:</b><br>PL/SQL</td><td>-</td><td>-</td><td>13</td><td>-</td><td>36</td><td>55</td><td>49</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-603:</b><br>Advanced Computer Networks</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-604:</b><br>Web Programming</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-605:</b><br>Web Programming Lab</td><td>-</td><td>-</td><td>13</td><td>-</td><td>35</td><td>55</td><td>48</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAH-606:</b><br>Python Programming</td><td>16</td><td>17</td><td>13</td><td>54</td><td>36</td><td>155</td><td>136</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-607:</b><br>Computing Aptitude</td><td>-</td><td>-</td><td>13</td><td>-</td><td>34</td><td>55</td><td>47</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>Total</b></td><td><b>70</b></td><td><b>68</b></td><td><b>52</b></td><td><b>218</b></td><td><b>141</b></td><td><b>620</b></td><td><b>549</b></td><td>-</td>
+                    </tr>
+        </table>
+    </div>
+
+    <div id="sem2">
+        <table class="semester-table" align="center">
+            <caption>Semester - 02</caption>
+            <tr>
+                <th>Subject Name</th><th>MST 1</th><th>MST 2</th><th>Practical MST</th><th>Final Theory</th><th>Final Practical</th><th>Total</th><th>Gained</th><th>Grade</th>
+            </tr>
+            <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-601:</b><br>Advanced Database Management System</td><td>18</td><td>17</td><td>-</td><td>56</td><td>-</td><td>100</td><td>91</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-602:</b><br>PL/SQL</td><td>-</td><td>-</td><td>13</td><td>-</td><td>36</td><td>55</td><td>49</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-603:</b><br>Advanced Computer Networks</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-604:</b><br>Web Programming</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-605:</b><br>Web Programming Lab</td><td>-</td><td>-</td><td>13</td><td>-</td><td>35</td><td>55</td><td>48</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAH-606:</b><br>Python Programming</td><td>16</td><td>17</td><td>13</td><td>54</td><td>36</td><td>155</td><td>136</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-607:</b><br>Computing Aptitude</td><td>-</td><td>-</td><td>13</td><td>-</td><td>34</td><td>55</td><td>47</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>Total</b></td><td><b>70</b></td><td><b>68</b></td><td><b>52</b></td><td><b>218</b></td><td><b>141</b></td><td><b>620</b></td><td><b>549</b></td><td>-</td>
+                    </tr>
+        </table>
+    </div>
+
+    <div id="sem3">
+        <table class="semester-table" align="center">
+            <caption>Semester - 03</caption>
+            <tr>
+                <th>Subject Name</th><th>MST 1</th><th>MST 2</th><th>Practical MST</th><th>Final Theory</th><th>Final Practical</th><th>Total</th><th>Gained</th><th>Grade</th>
+            </tr>
+            <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-601:</b><br>Advanced Database Management System</td><td>18</td><td>17</td><td>-</td><td>56</td><td>-</td><td>100</td><td>91</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-602:</b><br>PL/SQL</td><td>-</td><td>-</td><td>13</td><td>-</td><td>36</td><td>55</td><td>49</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-603:</b><br>Advanced Computer Networks</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-604:</b><br>Web Programming</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-605:</b><br>Web Programming Lab</td><td>-</td><td>-</td><td>13</td><td>-</td><td>35</td><td>55</td><td>48</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAH-606:</b><br>Python Programming</td><td>16</td><td>17</td><td>13</td><td>54</td><td>36</td><td>155</td><td>136</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-607:</b><br>Computing Aptitude</td><td>-</td><td>-</td><td>13</td><td>-</td><td>34</td><td>55</td><td>47</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>Total</b></td><td><b>70</b></td><td><b>68</b></td><td><b>52</b></td><td><b>218</b></td><td><b>141</b></td><td><b>620</b></td><td><b>549</b></td><td>-</td>
+                    </tr>
+        </table>
+    </div>
+
+    <div id="sem4">
+        <table class="semester-table" align="center">
+            <caption>Semester - 04</caption>
+            <tr>
+                <th>Subject Name</th><th>MST 1</th><th>MST 2</th><th>Practical MST</th><th>Final Theory</th><th>Final Practical</th><th>Total</th><th>Gained</th><th>Grade</th>
+            </tr>
+            <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-601:</b><br>Advanced Database Management System</td><td>18</td><td>17</td><td>-</td><td>56</td><td>-</td><td>100</td><td>91</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-602:</b><br>PL/SQL</td><td>-</td><td>-</td><td>13</td><td>-</td><td>36</td><td>55</td><td>49</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-603:</b><br>Advanced Computer Networks</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAT-604:</b><br>Web Programming</td><td>18</td><td>17</td><td>-</td><td>54</td><td>-</td><td>100</td><td>89</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-605:</b><br>Web Programming Lab</td><td>-</td><td>-</td><td>13</td><td>-</td><td>35</td><td>55</td><td>48</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAH-606:</b><br>Python Programming</td><td>16</td><td>17</td><td>13</td><td>54</td><td>36</td><td>155</td><td>136</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>25CAP-607:</b><br>Computing Aptitude</td><td>-</td><td>-</td><td>13</td><td>-</td><td>34</td><td>55</td><td>47</td><td>A</td>
+                    </tr>
+                    <tr align="center">
+                        <td bgcolor="D1CFD1"><b>Total</b></td><td><b>70</b></td><td><b>68</b></td><td><b>52</b></td><td><b>218</b></td><td><b>141</b></td><td><b>620</b></td><td><b>549</b></td><td>-</td>
+                    </tr>
+        </table>
+    </div>
+
+    <!-- ================= FOOTER LINKS ================= -->
+    
+
+</body>
+</html>
